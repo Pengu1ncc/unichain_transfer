@@ -2,8 +2,9 @@
 
 本脚本通过 Python 使用 `web3.py` 和 `eth-account` 库，  
 结合 HTTP `requests` 发送原始 `eth_sendRawTransaction` 请求，  
-调用已部署在 UniChain（或其他 EVM 兼容链）上的 `MultiSender` 合约，  
-实现 **将一笔 ETH / BNB 均分发送到多个地址**。
+调用已部署在 UniChain（或其他 EVM 兼容链）上的 `MultiSender` 合约，实现 **将一笔 ETH / BNB 均分发送到多个地址**。
+
+合约地址：https://unichain.blockscout.com/address/0xfD2424913DfF580A348f39f9A42de5206dbB3662
 
 ## ⚙️ 环境准备
 
